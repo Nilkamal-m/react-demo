@@ -1,0 +1,15 @@
+.footerbar-container {
+  background-color: #ffc423;
+  margin-top: 10px;
+  padding: 20px;
+}
+.footerbar-sec-container {
+  display: flex;
+  flex-direction: column;
+}
+.footerbar-sec-container a {
+  margin: 10px 0;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #004070;
+}

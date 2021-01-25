@@ -1,0 +1,8 @@
+.gallery-container {
+  background-image: url("url('https://brmgss.org/wp-content/uploads/2020/03/slide1.jpg')");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100px;
+}

@@ -1,0 +1,255 @@
+/* .TopbarItem {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: #f98f04;
+  border-radius: 0 0 0 100px;
+}
+.topbar-cont-dtl {
+  justify-self: start;
+  cursor: pointer;
+  margin-left: 2%;
+}
+.topbar-phone-no {
+  padding-right: 20px;
+  font-size: 13px;
+  color: #ffff;
+  font-weight: 500;
+}
+.topbar-cont-dtl a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 500;
+}
+.topbar-cont-dtl-mobile {
+  display: none;
+}
+.topbar-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+.social-link {
+  color: #ffff;
+  text-decoration: none;
+  padding: 8px 8px;
+}
+.social-link-fb:hover {
+  background-color: #4267b2;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-tw:hover {
+  background-color: #1da1f2;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-yt:hover {
+  background-color: #ff0000;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-g:hover {
+  background-color: #db4a39;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.fa-bars {
+  color: #ffff;
+  font-size: 30px;
+}
+.fa-times {
+  color: #ffff;
+  font-size: 30px;
+}
+.menu-icon {
+  display: none;
+  padding: 10px 10px;
+}
+.menu-icon:hover {
+  background-color: #ff000093;
+  transition: all 0.2s ease-out;
+}
+@media screen and (max-width: 1099px) {
+  .topbar-cont-dtl {
+    margin-left: 5%;
+    position: relative;
+  }
+}
+@media screen and (max-width: 885px) {
+  .topbar-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin: 1rem;
+  }
+  .menu-icon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .TopbarItem {
+    height: 100px;
+  }
+  .topbar-cont-dtl {
+    font-size: 10px;
+    margin-left: 10%;
+  }
+  .menu-icon {
+    display: flex;
+    justify-self: end;
+    align-self: center;
+  }
+  .topbar-cont-dtl-mobile {
+    display: flex;
+  }
+  .social-link {
+    font-size: 10px;
+  }
+} */
+
+.topbar-social-menu {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #f98f04;
+  border-radius: 0 0 0 100px;
+  height: 50px;
+}
+.topbar-cont {
+  margin-right: auto;
+  justify-self: flex-start;
+}
+.nav__link {
+  list-style: none;
+}
+.nav__link li {
+  display: inline;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+.fa-bars {
+  color: #ffff;
+  font-size: 30px;
+  padding: 2%;
+}
+.fa-times {
+  color: #ffff;
+  font-size: 30px;
+  padding: 2%;
+}
+.menu-icon {
+  display: none;
+  padding: 10px 10px;
+}
+.menu-icon:hover {
+  background-color: #ff000093;
+  transition: all 0.2s ease-out;
+}
+.social-link {
+  color: #ffff;
+  text-decoration: none;
+  padding: 8px 8px;
+}
+.social-link-fb:hover {
+  background-color: #4267b2;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-tw:hover {
+  background-color: #1da1f2;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-yt:hover {
+  background-color: #ff0000;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.social-link-g:hover {
+  background-color: #db4a39;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+.topbar-phone-no {
+  padding-right: 20px;
+  font-size: 13px;
+  color: #ffff;
+  font-weight: 300;
+}
+.topbar-cont a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 885px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .topbar-cont {
+  }
+  .nav__link {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+  .menu-icon {
+    display: flex;
+
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  header {
+    display: grid;
+    justify-content: end;
+  }
+  .topbar-cont {
+    margin-left: 20%;
+  }
+  .nav__link li {
+    font-size: 10px;
+  }
+  .topbar-phone-no {
+    font-size: 10px;
+  }
+  .menu-icon {
+    display: flex;
+
+    margin-left: 0px;
+  }
+  .menu-icon {
+    display: flex;
+
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+}
+@media screen and (max-width: 330px) {
+} ;

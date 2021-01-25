@@ -1,0 +1,7 @@
+.map-footer-main-cont {
+}
+.map-footer-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
